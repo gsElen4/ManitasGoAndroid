@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ManitasGo</string>
+    <string name="login_titulo">Iniciar sesión</string>
+    <string name="login_btn">Entrar</string>
+    <string name="login_cambiar_registro">¿No tienes cuenta? Regístrate</string>
+    <string name="registro_titulo">Crear cuenta</string>
+    <string name="registro_btn">Registrarse</string>
+    <string name="registro_cambiar_login">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_nombre">Nombre completo</string>
+    <string name="hint_telefono">Teléfono (opcional)</string>
+    <string name="tipo_cliente">Cliente</string>
+    <string name="tipo_vendedor">Vendedor</string>
+    <string name="buscar_hint">Buscar producto…</string>
+    <string name="filtrar_localidad">Localidad</string>
+    <string name="sin_resultados">No se encontraron resultados</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="llamar">Llamar</string>
+    <string name="ver_mapa">Ver en mapa</string>
+    <string name="valorar">Valorar</string>
+    <string name="productos">Productos</string>
+    <string name="resenyas">Reseñas</string>
+    <string name="mi_comercio">Mi comercio</string>
+    <string name="sin_comercio">Todavía no tienes un comercio. ¡Crea uno!</string>
+    <string name="crear_comercio">Crear comercio</string>
+    <string name="editar_comercio">Editar perfil</string>
+    <string name="anadir_producto">Añadir producto</string>
+    <string name="guardar">Guardar</string>
+</resources>

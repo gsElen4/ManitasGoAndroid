@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <application android:name=".ManitasGoApp" android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/Theme.ManitasGo" android:usesCleartextTraffic="false">
+        <activity android:name=".ui.activity.SplashActivity" android:exported="true" android:theme="@style/Theme.ManitasGo.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activity.AuthActivity" android:exported="false" android:theme="@style/Theme.ManitasGo.NoActionBar"/>
+        <activity android:name=".ui.activity.ClienteActivity" android:exported="false" android:theme="@style/Theme.ManitasGo.NoActionBar"/>
+        <activity android:name=".ui.activity.VendedorActivity" android:exported="false" android:theme="@style/Theme.ManitasGo.NoActionBar"/>
+        <activity android:name=".ui.activity.DetalleComercioActivity" android:exported="false" android:parentActivityName=".ui.activity.ClienteActivity" android:theme="@style/Theme.ManitasGo.NoActionBar"/>
+        <activity android:name=".ui.activity.EditarProductoActivity" android:exported="false" android:parentActivityName=".ui.activity.VendedorActivity" android:theme="@style/Theme.ManitasGo.NoActionBar"/>
+        <activity android:name=".ui.activity.EditarComercioActivity" android:exported="false" android:parentActivityName=".ui.activity.VendedorActivity" android:theme="@style/Theme.ManitasGo.NoActionBar"/>
+    </application>
+</manifest>
