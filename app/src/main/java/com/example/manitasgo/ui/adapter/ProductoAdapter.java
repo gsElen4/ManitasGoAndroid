@@ -15,10 +15,24 @@ import java.util.List;
 
 public class ProductoAdapter extends RecyclerView.Adapter<ProductoAdapter.ViewHolder> {
 
+    public interface OnProductoClickListener {
+        void onProductoClick(Producto producto);
+    }
+
     private List<Producto> data;
+    private OnProductoClickListener listener;
 
     public ProductoAdapter(List<Producto> data) {
         this.data = data;
+    }
+
+    public ProductoAdapter(List<Producto> data, OnProductoClickListener listener) {
+        this.data = data;
+        this.listener = listener;
+    }
+
+    public void setListener(OnProductoClickListener listener) {
+        this.listener = listener;
     }
 
     public void setData(List<Producto> nuevos) {
@@ -44,6 +58,10 @@ public class ProductoAdapter extends RecyclerView.Adapter<ProductoAdapter.ViewHo
         holder.tvDisponible.setText(p.disponible ? "Disponible" : "Sin stock");
         holder.tvDisponible.setTextColor(holder.itemView.getContext().getResources()
                 .getColor(p.disponible ? R.color.verde_disponible : R.color.rojo_sin_stock, null));
+
+        if (listener != null) {
+            holder.itemView.setOnClickListener(v -> listener.onProductoClick(p));
+        }
     }
 
     @Override

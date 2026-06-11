@@ -52,7 +52,6 @@ public class ClienteActivity extends AppCompatActivity {
     private ComercioAdapter comercioAdapter;
     private ProductoAdapter productoAdapter;
 
-    // LiveData campos de instancia para evitar observers acumulados
     private final MutableLiveData<List<Comercio>> ldComercios = new MutableLiveData<>();
     private final MutableLiveData<List<Producto>> ldProductos = new MutableLiveData<>();
     private final MutableLiveData<String> ldError = new MutableLiveData<>();
@@ -72,13 +71,13 @@ public class ClienteActivity extends AppCompatActivity {
         productoRepo = new ProductoRepository();
         authRepo     = new AuthRepository(this);
 
-        etBuscar        = findViewById(R.id.et_buscar);
-        spinnerLocalidad= findViewById(R.id.spinner_localidad);
-        rvComercios     = findViewById(R.id.rv_comercios);
-        rvProductos     = findViewById(R.id.rv_productos);
-        progress        = findViewById(R.id.progress_cliente);
-        swipeRefresh    = findViewById(R.id.swipe_refresh);
-        tvSinResultados = findViewById(R.id.tv_sin_resultados);
+        etBuscar         = findViewById(R.id.et_buscar);
+        spinnerLocalidad = findViewById(R.id.spinner_localidad);
+        rvComercios      = findViewById(R.id.rv_comercios);
+        rvProductos      = findViewById(R.id.rv_productos);
+        progress         = findViewById(R.id.progress_cliente);
+        swipeRefresh     = findViewById(R.id.swipe_refresh);
+        tvSinResultados  = findViewById(R.id.tv_sin_resultados);
 
         // Spinner de localidades
         ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<>(this,
@@ -96,8 +95,17 @@ public class ClienteActivity extends AppCompatActivity {
         rvComercios.setLayoutManager(new LinearLayoutManager(this));
         rvComercios.setAdapter(comercioAdapter);
 
-        // Adapter productos (búsqueda)
-        productoAdapter = new ProductoAdapter(new ArrayList<>());
+        // Adapter productos (búsqueda) — al pulsar navega al comercio del producto
+        productoAdapter = new ProductoAdapter(new ArrayList<>(),
+                new ProductoAdapter.OnProductoClickListener() {
+                    @Override
+                    public void onProductoClick(Producto p) {
+                        Intent i = new Intent(ClienteActivity.this, DetalleComercioActivity.class);
+                        i.putExtra(DetalleComercioActivity.EXTRA_COMERCIO_ID, p.comercioId);
+                        i.putExtra(DetalleComercioActivity.EXTRA_COMERCIO_NOMBRE, "Comercio");
+                        startActivity(i);
+                    }
+                });
         rvProductos.setLayoutManager(new LinearLayoutManager(this));
         rvProductos.setAdapter(productoAdapter);
 
