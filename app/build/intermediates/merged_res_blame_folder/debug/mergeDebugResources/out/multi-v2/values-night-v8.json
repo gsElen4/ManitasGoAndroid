@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.manitasgo.app-mergeDebugResources-35:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.manitasgo.app-mergeDebugResources-2:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Usuario\\Desktop\\ManitasGo\\ManitasGoAndroid\\ManitasGo\\app\\src\\main\\res\\values-night\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "77",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "515"
-                    },
-                    "to": {
-                        "startLines": "9",
-                        "startColumns": "4",
-                        "startOffsets": "687",
-                        "endLines": "15",
-                        "endColumns": "12",
-                        "endOffsets": "1125"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Usuario\\.gradle\\caches\\8.13\\transforms\\9a06e9e8de6c7509090f968b6e2f4c1e\\transformed\\appcompat-1.7.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\caches\\8.13\\transforms\\9a06e9e8de6c7509090f968b6e2f4c1e\\transformed\\appcompat-1.7.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -40,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Usuario\\.gradle\\caches\\8.13\\transforms\\c8183a305d2fe804be275d7b4d96dc58\\transformed\\material-1.12.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\caches\\8.13\\transforms\\c8183a305d2fe804be275d7b4d96dc58\\transformed\\material-1.12.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -54,6 +35,25 @@
                         "startOffsets": "1130,1205,1316,1405,1506,1613,1720,1819,1926,2029,2156,2244,2368,2470,2572,2688,2790,2904,3032,3148,3270,3406,3526,3660,3780,3892,4107,4224,4348,4478,4600,4738,4872,4988",
                         "endColumns": "74,110,88,100,106,106,98,106,102,126,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
                         "endOffsets": "1200,1311,1400,1501,1608,1715,1814,1921,2024,2151,2239,2363,2465,2567,2683,2785,2899,3027,3143,3265,3401,3521,3655,3775,3887,4013,4219,4343,4473,4595,4733,4867,4983,5103"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Usuario\\Desktop\\ManitasGoCodigo\\ManitasGoAndroid\\ManitasGo\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "77",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "515"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "687",
+                        "endLines": "15",
+                        "endColumns": "12",
+                        "endOffsets": "1125"
                     }
                 }
             ]

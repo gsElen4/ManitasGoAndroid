@@ -4,6 +4,7 @@ import com.google.gson.annotations.SerializedName;
 
 public class AuthResponse {
 
+
     @SerializedName("access_token")
     public String accessToken;
 
@@ -16,11 +17,17 @@ public class AuthResponse {
     @SerializedName("expires_in")
     public int expiresIn;
 
+    @SerializedName("user")
     public UserData user;
 
     public static class UserData {
+        @SerializedName("id")
         public String id;
+
+        @SerializedName("email")
         public String email;
+
+        @SerializedName("role")
         public String role;
     }
 }

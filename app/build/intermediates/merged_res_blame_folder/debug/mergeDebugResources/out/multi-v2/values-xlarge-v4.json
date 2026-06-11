@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.manitasgo.app-mergeDebugResources-35:/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "com.example.manitasgo.app-mergeDebugResources-2:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Usuario\\.gradle\\caches\\8.13\\transforms\\9a06e9e8de6c7509090f968b6e2f4c1e\\transformed\\appcompat-1.7.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "C:\\caches\\8.13\\transforms\\9a06e9e8de6c7509090f968b6e2f4c1e\\transformed\\appcompat-1.7.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
