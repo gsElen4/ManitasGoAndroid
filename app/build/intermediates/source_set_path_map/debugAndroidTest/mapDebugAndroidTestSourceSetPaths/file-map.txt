@@ -1,0 +1,6 @@
+com.example.manitasgo.test.app-androidTest-0 C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\build\generated\res\resValues\androidTest\debug
+com.example.manitasgo.test.app-updated_navigation_xml-1 C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\build\generated\updated_navigation_xml\debugAndroidTest
+com.example.manitasgo.test.app-mergeDebugAndroidTestResources-2 C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.manitasgo.test.app-mergeDebugAndroidTestResources-3 C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.manitasgo.test.app-debugAndroidTest-4 C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.example.manitasgo.test.app-core-1.6.1-5 C:\caches\8.13\transforms\125ff3c86b92870f26b46e60e18b065f\transformed\core-1.6.1\res

@@ -109,6 +109,7 @@ layout item_resenya
 menu menu_cliente
 menu menu_vendedor
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string anadir_producto
 string app_name

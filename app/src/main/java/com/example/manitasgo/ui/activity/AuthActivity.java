@@ -34,7 +34,7 @@ public class AuthActivity extends AppCompatActivity {
     private final MutableLiveData<String>  ldTipoUsuario = new MutableLiveData<>();
     private final MutableLiveData<Boolean> ldExito       = new MutableLiveData<>();
 
-    // Vistas registro (ocultas en modo login)
+    // Vistas registro
     private EditText etNombre, etTelefono;
     private TextInputLayout tilNombre, tilTelefono;
     private RadioGroup rgTipo;
@@ -100,15 +100,20 @@ public class AuthActivity extends AppCompatActivity {
         }
 
         setLoading(true);
+        ldError.setValue(null);
+        ldTipoUsuario.setValue(null);
         ldError.removeObservers(this);
         ldTipoUsuario.removeObservers(this);
 
         ldError.observe(this, msg -> {
+            if (msg == null) return;
             setLoading(false);
             Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
         });
 
+
         ldTipoUsuario.observe(this, tipo -> {
+            if (tipo == null) return;
             setLoading(false);
             Intent intent = "vendedor".equals(tipo)
                     ? new Intent(this, VendedorActivity.class)

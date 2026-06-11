@@ -2763,6 +2763,7 @@ com.example.manitasgo:drawable/abc_list_selector_background_transition_holo_dark
 com.example.manitasgo:color/material_personalized_color_surface_bright = 0x7f0502ac
 com.example.manitasgo:color/material_personalized_color_secondary_text_inverse = 0x7f0502aa
 com.example.manitasgo:color/material_personalized_color_secondary_container = 0x7f0502a8
+com.example.manitasgo:mipmap/ic_launcher_foreground = 0x7f0e0001
 com.example.manitasgo:attr/cardBackgroundColor = 0x7f03009b
 com.example.manitasgo:dimen/m3_card_elevated_dragged_z = 0x7f0600e7
 com.example.manitasgo:attr/colorSurfaceBright = 0x7f030124
@@ -4564,7 +4565,7 @@ com.example.manitasgo:color/m3_card_ripple_color = 0x7f050080
 com.example.manitasgo:attr/layout_editor_absoluteY = 0x7f0302a9
 com.example.manitasgo:macro/m3_comp_time_picker_period_selector_selected_hover_state_layer_color = 0x7f0c0157
 com.example.manitasgo:attr/tabPaddingStart = 0x7f030425
-com.example.manitasgo:mipmap/ic_launcher_round = 0x7f0e0001
+com.example.manitasgo:mipmap/ic_launcher_round = 0x7f0e0002
 com.example.manitasgo:color/m3_sys_color_dynamic_light_on_error_container = 0x7f0501ba
 com.example.manitasgo:attr/selectorSize = 0x7f0303b5
 com.example.manitasgo:attr/layout_constraintWidth_percent = 0x7f0302a6
