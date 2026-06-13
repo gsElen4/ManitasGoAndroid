@@ -4,16 +4,16 @@
         "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\layout_activity_cliente.xml.flat",
-        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\layout\\activity_cliente.xml"
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\mipmap-hdpi\\ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\layout_activity_cliente.xml.flat",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\layout\\activity_cliente.xml"
     },
     {
         "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -100,12 +100,12 @@
         "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\layout_dialog_valorar.xml.flat",
         "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\layout\\dialog_valorar.xml"
+    },
+    {
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "com.example.manitasgo.app-debug-4:/layout_item_comercio.xml.flat",
