@@ -42,6 +42,7 @@ public class DetalleComercioActivity extends AppCompatActivity {
     private SessionManager session;
 
     private String comercioId;
+    private Comercio comercioActual;
 
     // Vistas
     private TextView tvNombre, tvDireccion, tvLocalidad, tvTelefono, tvValoracion, tvDescripcion;
@@ -51,12 +52,12 @@ public class DetalleComercioActivity extends AppCompatActivity {
     private ProductoAdapter productoAdapter;
     private ResenyaAdapter resenyaAdapter;
 
-    // LiveData de instancia para evitar observers acumulados
-    private final MutableLiveData<List<Comercio>> ldComercio = new MutableLiveData<>();
-    private final MutableLiveData<List<Producto>> ldProductos = new MutableLiveData<>();
-    private final MutableLiveData<List<Resenya>> ldResenyas = new MutableLiveData<>();
-    private final MutableLiveData<String> ldError = new MutableLiveData<>();
-    private final MutableLiveData<Boolean> ldResenyaExito = new MutableLiveData<>();
+    // LiveData de instancia
+    private final MutableLiveData<List<Comercio>> ldComercio     = new MutableLiveData<>();
+    private final MutableLiveData<List<Producto>> ldProductos    = new MutableLiveData<>();
+    private final MutableLiveData<List<Resenya>>  ldResenyas     = new MutableLiveData<>();
+    private final MutableLiveData<String>         ldError        = new MutableLiveData<>();
+    private final MutableLiveData<Boolean>        ldResenyaExito = new MutableLiveData<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -109,48 +110,72 @@ public class DetalleComercioActivity extends AppCompatActivity {
         ldError.removeObservers(this);
 
         ldComercio.observe(this, lista -> {
-            if (lista != null && !lista.isEmpty()) {
-                Comercio c = lista.get(0);
-                tvNombre.setText(c.nombre);
-                tvDireccion.setText(c.direccion);
-                tvLocalidad.setText(c.localidad);
-                tvTelefono.setText(c.telefono != null ? c.telefono : "No disponible");
-                tvDescripcion.setText(c.descripcion != null ? c.descripcion : "");
-                tvValoracion.setText(String.format("%.1f / 5", c.valoracionMedia));
-                ratingBar.setRating((float) c.valoracionMedia);
-
-                if (c.telefono != null) {
-                    btnLlamar.setOnClickListener(v -> {
-                        Intent call = new Intent(Intent.ACTION_DIAL,
-                                Uri.parse("tel:" + c.telefono.replaceAll(" ", "")));
-                        startActivity(call);
-                    });
-                } else {
-                    btnLlamar.setEnabled(false);
-                }
-
-                btnMapa.setOnClickListener(v -> {
-                    Uri gmmUri = Uri.parse("geo:" + c.latitud + "," + c.longitud
-                            + "?q=" + Uri.encode(c.nombre));
-                    startActivity(new Intent(Intent.ACTION_VIEW, gmmUri));
-                });
-            }
+            if (lista == null || lista.isEmpty()) return;
+            comercioActual = lista.get(0);
+            mostrarComercio(comercioActual.valoracionMedia);
         });
 
         ldError.observe(this, msg -> Toast.makeText(this, msg, Toast.LENGTH_SHORT).show());
-
         comercioRepo.getById(comercioId, ldComercio, ldError);
+    }
+
+    private void mostrarComercio(double valoracion) {
+        if (comercioActual == null) return;
+        tvNombre.setText(comercioActual.nombre);
+        tvDireccion.setText(comercioActual.direccion);
+        tvLocalidad.setText(comercioActual.localidad);
+        tvTelefono.setText(comercioActual.telefono != null ? comercioActual.telefono : "No disponible");
+        tvDescripcion.setText(comercioActual.descripcion != null ? comercioActual.descripcion : "");
+        tvValoracion.setText(String.format("%.1f / 5", valoracion));
+        ratingBar.setRating((float) valoracion);
+
+        if (comercioActual.telefono != null) {
+            btnLlamar.setOnClickListener(v -> {
+                Intent call = new Intent(Intent.ACTION_DIAL,
+                        Uri.parse("tel:" + comercioActual.telefono.replaceAll(" ", "")));
+                startActivity(call);
+            });
+        } else {
+            btnLlamar.setEnabled(false);
+        }
+
+        btnMapa.setOnClickListener(v -> {
+            Uri gmmUri = Uri.parse("geo:" + comercioActual.latitud + "," + comercioActual.longitud
+                    + "?q=" + Uri.encode(comercioActual.nombre));
+            startActivity(new Intent(Intent.ACTION_VIEW, gmmUri));
+        });
+    }
+
+    private void actualizarValoracionDesdeResenyas(List<Resenya> resenyas) {
+        if (resenyas == null || resenyas.isEmpty()) {
+            mostrarComercio(0);
+            return;
+        }
+        double suma = 0;
+        for (Resenya r : resenyas) {
+            suma += r.puntuacion;
+        }
+        double media = suma / resenyas.size();
+        // Redondear a 1 decimal
+        media = Math.round(media * 10.0) / 10.0;
+        mostrarComercio(media);
     }
 
     private void cargarProductos() {
         ldProductos.removeObservers(this);
-        ldProductos.observe(this, lista -> productoAdapter.setData(lista != null ? lista : new ArrayList<>()));
+        ldProductos.observe(this, lista ->
+                productoAdapter.setData(lista != null ? lista : new ArrayList<>()));
         productoRepo.getByComercio(comercioId, ldProductos, ldError);
     }
 
     private void cargarResenyas() {
         ldResenyas.removeObservers(this);
-        ldResenyas.observe(this, lista -> resenyaAdapter.setData(lista != null ? lista : new ArrayList<>()));
+        ldResenyas.observe(this, lista -> {
+            List<Resenya> resenyas = lista != null ? lista : new ArrayList<>();
+            resenyaAdapter.setData(resenyas);
+            // Calcular la media localmente y actualizar las estrellas
+            actualizarValoracionDesdeResenyas(resenyas);
+        });
         resenyaRepo.getByComercio(comercioId, ldResenyas, ldError);
     }
 
@@ -176,13 +201,14 @@ public class DetalleComercioActivity extends AppCompatActivity {
                     ldError.removeObservers(this);
 
                     ldResenyaExito.observe(this, ok -> {
-                        if (ok) {
-                            Toast.makeText(this, "¡Valoración enviada!", Toast.LENGTH_SHORT).show();
-                            cargarResenyas();
-                            cargarComercio();
-                        }
+                        if (ok == null || !ok) return;
+                        Toast.makeText(this, "¡Valoración enviada!", Toast.LENGTH_SHORT).show();
+                        ldResenyas.setValue(null);
+                        cargarResenyas();
                     });
-                    ldError.observe(this, msg -> Toast.makeText(this, "Error: " + msg, Toast.LENGTH_LONG).show());
+
+                    ldError.observe(this, msg ->
+                            Toast.makeText(this, "Error: " + msg, Toast.LENGTH_LONG).show());
 
                     resenyaRepo.crear(r, ldResenyaExito, ldError);
                 })

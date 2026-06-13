@@ -56,164 +56,165 @@
 32-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:8:142-187
 33        android:supportsRtl="true"
 33-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:8:188-214
-34        android:theme="@style/Theme.ManitasGo"
-34-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:8:215-253
-35        android:usesCleartextTraffic="false" >
-35-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:8:254-290
-36        <activity
-36-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:9:9-14:20
-37            android:name="com.example.manitasgo.ui.activity.SplashActivity"
-37-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:9:19-61
-38            android:exported="true"
-38-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:9:62-85
-39            android:theme="@style/Theme.ManitasGo.Splash" >
-39-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:9:86-131
-40            <intent-filter>
-40-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:10:13-13:29
-41                <action android:name="android.intent.action.MAIN" />
-41-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:11:17-68
-41-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:11:25-66
-42
-43                <category android:name="android.intent.category.LAUNCHER" />
-43-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:12:17-76
-43-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:12:27-74
-44            </intent-filter>
-45        </activity>
-46        <activity
-46-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:15:9-137
-47            android:name="com.example.manitasgo.ui.activity.AuthActivity"
-47-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:15:19-59
-48            android:exported="false"
-48-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:15:60-84
-49            android:theme="@style/Theme.ManitasGo.NoActionBar" />
-49-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:15:85-135
-50        <activity
-50-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:16:9-140
-51            android:name="com.example.manitasgo.ui.activity.ClienteActivity"
-51-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:16:19-62
-52            android:exported="false"
-52-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:16:63-87
-53            android:theme="@style/Theme.ManitasGo.NoActionBar" />
-53-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:16:88-138
-54        <activity
-54-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:17:9-141
-55            android:name="com.example.manitasgo.ui.activity.VendedorActivity"
-55-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:17:19-63
-56            android:exported="false"
-56-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:17:64-88
-57            android:theme="@style/Theme.ManitasGo.NoActionBar" />
-57-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:17:89-139
-58        <activity
-58-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:18:9-206
-59            android:name="com.example.manitasgo.ui.activity.DetalleComercioActivity"
-59-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:18:19-70
-60            android:exported="false"
-60-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:18:71-95
-61            android:parentActivityName="com.example.manitasgo.ui.activity.ClienteActivity"
-61-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:18:96-153
-62            android:theme="@style/Theme.ManitasGo.NoActionBar" />
-62-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:18:154-204
-63        <activity
-63-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:19:9-206
-64            android:name="com.example.manitasgo.ui.activity.EditarProductoActivity"
-64-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:19:19-69
-65            android:exported="false"
-65-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:19:70-94
-66            android:parentActivityName="com.example.manitasgo.ui.activity.VendedorActivity"
-66-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:19:95-153
-67            android:theme="@style/Theme.ManitasGo.NoActionBar" />
-67-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:19:154-204
-68        <activity
-68-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:20:9-206
-69            android:name="com.example.manitasgo.ui.activity.EditarComercioActivity"
-69-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:20:19-69
-70            android:exported="false"
-70-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:20:70-94
-71            android:parentActivityName="com.example.manitasgo.ui.activity.VendedorActivity"
-71-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:20:95-153
-72            android:theme="@style/Theme.ManitasGo.NoActionBar" />
-72-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:20:154-204
-73        <activity
-73-->[com.google.android.gms:play-services-base:18.5.0] C:\caches\8.13\transforms\528de7c523bdda269182acf3674b0220\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
-74            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-74-->[com.google.android.gms:play-services-base:18.5.0] C:\caches\8.13\transforms\528de7c523bdda269182acf3674b0220\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
-75            android:exported="false"
-75-->[com.google.android.gms:play-services-base:18.5.0] C:\caches\8.13\transforms\528de7c523bdda269182acf3674b0220\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
-76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-76-->[com.google.android.gms:play-services-base:18.5.0] C:\caches\8.13\transforms\528de7c523bdda269182acf3674b0220\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
-77
-78        <meta-data
-78-->[com.google.android.gms:play-services-basement:18.4.0] C:\caches\8.13\transforms\cf025e060c9dad810b9d91ef1e456a3b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
-79            android:name="com.google.android.gms.version"
-79-->[com.google.android.gms:play-services-basement:18.4.0] C:\caches\8.13\transforms\cf025e060c9dad810b9d91ef1e456a3b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
-80            android:value="@integer/google_play_services_version" />
-80-->[com.google.android.gms:play-services-basement:18.4.0] C:\caches\8.13\transforms\cf025e060c9dad810b9d91ef1e456a3b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
-81
-82        <provider
-82-->[androidx.emoji2:emoji2:1.3.0] C:\caches\8.13\transforms\ddf680e1d3918f49cc8c81b1a976b431\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-83            android:name="androidx.startup.InitializationProvider"
-83-->[androidx.emoji2:emoji2:1.3.0] C:\caches\8.13\transforms\ddf680e1d3918f49cc8c81b1a976b431\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-84            android:authorities="com.example.manitasgo.androidx-startup"
-84-->[androidx.emoji2:emoji2:1.3.0] C:\caches\8.13\transforms\ddf680e1d3918f49cc8c81b1a976b431\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-85            android:exported="false" >
-85-->[androidx.emoji2:emoji2:1.3.0] C:\caches\8.13\transforms\ddf680e1d3918f49cc8c81b1a976b431\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-86            <meta-data
-86-->[androidx.emoji2:emoji2:1.3.0] C:\caches\8.13\transforms\ddf680e1d3918f49cc8c81b1a976b431\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-87                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-87-->[androidx.emoji2:emoji2:1.3.0] C:\caches\8.13\transforms\ddf680e1d3918f49cc8c81b1a976b431\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-88                android:value="androidx.startup" />
-88-->[androidx.emoji2:emoji2:1.3.0] C:\caches\8.13\transforms\ddf680e1d3918f49cc8c81b1a976b431\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-89            <meta-data
-89-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\caches\8.13\transforms\e049cc5a83d478e97d07eb5f8822db53\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:29:13-31:52
-90                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-90-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\caches\8.13\transforms\e049cc5a83d478e97d07eb5f8822db53\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:30:17-78
-91                android:value="androidx.startup" />
-91-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\caches\8.13\transforms\e049cc5a83d478e97d07eb5f8822db53\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:31:17-49
-92            <meta-data
-92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-93                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-94                android:value="androidx.startup" />
-94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-95        </provider>
-96
-97        <receiver
-97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-98            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-99            android:directBootAware="false"
-99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
-100            android:enabled="true"
-100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-101            android:exported="true"
-101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-102            android:permission="android.permission.DUMP" >
-102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
-103            <intent-filter>
-103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-104                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-105            </intent-filter>
-106            <intent-filter>
-106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-107                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
-108            </intent-filter>
-109            <intent-filter>
-109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-110                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
-111            </intent-filter>
-112            <intent-filter>
-112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-113                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
-114            </intent-filter>
-115        </receiver>
-116    </application>
-117
-118</manifest>
+34        android:testOnly="true"
+35        android:theme="@style/Theme.ManitasGo"
+35-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:8:215-253
+36        android:usesCleartextTraffic="false" >
+36-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:8:254-290
+37        <activity
+37-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:9:9-14:20
+38            android:name="com.example.manitasgo.ui.activity.SplashActivity"
+38-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:9:19-61
+39            android:exported="true"
+39-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:9:62-85
+40            android:theme="@style/Theme.ManitasGo.Splash" >
+40-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:9:86-131
+41            <intent-filter>
+41-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:10:13-13:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:11:17-68
+42-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:11:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:12:17-76
+44-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:12:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:15:9-137
+48            android:name="com.example.manitasgo.ui.activity.AuthActivity"
+48-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:15:19-59
+49            android:exported="false"
+49-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:15:60-84
+50            android:theme="@style/Theme.ManitasGo.NoActionBar" />
+50-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:15:85-135
+51        <activity
+51-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:16:9-140
+52            android:name="com.example.manitasgo.ui.activity.ClienteActivity"
+52-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:16:19-62
+53            android:exported="false"
+53-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:16:63-87
+54            android:theme="@style/Theme.ManitasGo.NoActionBar" />
+54-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:16:88-138
+55        <activity
+55-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:17:9-141
+56            android:name="com.example.manitasgo.ui.activity.VendedorActivity"
+56-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:17:19-63
+57            android:exported="false"
+57-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:17:64-88
+58            android:theme="@style/Theme.ManitasGo.NoActionBar" />
+58-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:17:89-139
+59        <activity
+59-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:18:9-206
+60            android:name="com.example.manitasgo.ui.activity.DetalleComercioActivity"
+60-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:18:19-70
+61            android:exported="false"
+61-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:18:71-95
+62            android:parentActivityName="com.example.manitasgo.ui.activity.ClienteActivity"
+62-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:18:96-153
+63            android:theme="@style/Theme.ManitasGo.NoActionBar" />
+63-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:18:154-204
+64        <activity
+64-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:19:9-206
+65            android:name="com.example.manitasgo.ui.activity.EditarProductoActivity"
+65-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:19:19-69
+66            android:exported="false"
+66-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:19:70-94
+67            android:parentActivityName="com.example.manitasgo.ui.activity.VendedorActivity"
+67-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:19:95-153
+68            android:theme="@style/Theme.ManitasGo.NoActionBar" />
+68-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:19:154-204
+69        <activity
+69-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:20:9-206
+70            android:name="com.example.manitasgo.ui.activity.EditarComercioActivity"
+70-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:20:19-69
+71            android:exported="false"
+71-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:20:70-94
+72            android:parentActivityName="com.example.manitasgo.ui.activity.VendedorActivity"
+72-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:20:95-153
+73            android:theme="@style/Theme.ManitasGo.NoActionBar" />
+73-->C:\Users\Usuario\Desktop\ManitasGoCodigo\ManitasGoAndroid\ManitasGo\app\src\main\AndroidManifest.xml:20:154-204
+74        <activity
+74-->[com.google.android.gms:play-services-base:18.5.0] C:\caches\8.13\transforms\528de7c523bdda269182acf3674b0220\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+75-->[com.google.android.gms:play-services-base:18.5.0] C:\caches\8.13\transforms\528de7c523bdda269182acf3674b0220\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+76            android:exported="false"
+76-->[com.google.android.gms:play-services-base:18.5.0] C:\caches\8.13\transforms\528de7c523bdda269182acf3674b0220\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.android.gms:play-services-base:18.5.0] C:\caches\8.13\transforms\528de7c523bdda269182acf3674b0220\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+78
+79        <meta-data
+79-->[com.google.android.gms:play-services-basement:18.4.0] C:\caches\8.13\transforms\cf025e060c9dad810b9d91ef1e456a3b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+80            android:name="com.google.android.gms.version"
+80-->[com.google.android.gms:play-services-basement:18.4.0] C:\caches\8.13\transforms\cf025e060c9dad810b9d91ef1e456a3b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+81            android:value="@integer/google_play_services_version" />
+81-->[com.google.android.gms:play-services-basement:18.4.0] C:\caches\8.13\transforms\cf025e060c9dad810b9d91ef1e456a3b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+82
+83        <provider
+83-->[androidx.emoji2:emoji2:1.3.0] C:\caches\8.13\transforms\ddf680e1d3918f49cc8c81b1a976b431\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+84            android:name="androidx.startup.InitializationProvider"
+84-->[androidx.emoji2:emoji2:1.3.0] C:\caches\8.13\transforms\ddf680e1d3918f49cc8c81b1a976b431\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+85            android:authorities="com.example.manitasgo.androidx-startup"
+85-->[androidx.emoji2:emoji2:1.3.0] C:\caches\8.13\transforms\ddf680e1d3918f49cc8c81b1a976b431\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+86            android:exported="false" >
+86-->[androidx.emoji2:emoji2:1.3.0] C:\caches\8.13\transforms\ddf680e1d3918f49cc8c81b1a976b431\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+87            <meta-data
+87-->[androidx.emoji2:emoji2:1.3.0] C:\caches\8.13\transforms\ddf680e1d3918f49cc8c81b1a976b431\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+88-->[androidx.emoji2:emoji2:1.3.0] C:\caches\8.13\transforms\ddf680e1d3918f49cc8c81b1a976b431\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+89                android:value="androidx.startup" />
+89-->[androidx.emoji2:emoji2:1.3.0] C:\caches\8.13\transforms\ddf680e1d3918f49cc8c81b1a976b431\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+90            <meta-data
+90-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\caches\8.13\transforms\e049cc5a83d478e97d07eb5f8822db53\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+91-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\caches\8.13\transforms\e049cc5a83d478e97d07eb5f8822db53\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:30:17-78
+92                android:value="androidx.startup" />
+92-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\caches\8.13\transforms\e049cc5a83d478e97d07eb5f8822db53\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:31:17-49
+93            <meta-data
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+94                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+95                android:value="androidx.startup" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+96        </provider>
+97
+98        <receiver
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+99            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+100            android:directBootAware="false"
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+101            android:enabled="true"
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+102            android:exported="true"
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+103            android:permission="android.permission.DUMP" >
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+105                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+108                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+109            </intent-filter>
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+111                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+112            </intent-filter>
+113            <intent-filter>
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+114                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\caches\8.13\transforms\1fb38eadffb27e390833ae47b4fe8dab\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+115            </intent-filter>
+116        </receiver>
+117    </application>
+118
+119</manifest>

@@ -1,46 +1,50 @@
 [
     {
-        "merged": "com.example.manitasgo.app-mergeDebugResources-3:/layout/activity_vendedor.xml",
-        "source": "com.example.manitasgo.app-main-6:/layout/activity_vendedor.xml"
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-mergeDebugResources-3:\\layout\\item_comercio.xml",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\layout\\item_comercio.xml"
     },
     {
-        "merged": "com.example.manitasgo.app-mergeDebugResources-3:/layout/activity_cliente.xml",
-        "source": "com.example.manitasgo.app-main-6:/layout/activity_cliente.xml"
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-mergeDebugResources-3:\\layout\\activity_editar_producto.xml",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\layout\\activity_editar_producto.xml"
+    },
+    {
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-mergeDebugResources-3:\\layout\\item_producto_vendedor.xml",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\layout\\item_producto_vendedor.xml"
+    },
+    {
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-mergeDebugResources-3:\\layout\\activity_detalle_comercio.xml",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\layout\\activity_detalle_comercio.xml"
+    },
+    {
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-mergeDebugResources-3:\\layout\\activity_vendedor.xml",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\layout\\activity_vendedor.xml"
     },
     {
         "merged": "com.example.manitasgo.app-mergeDebugResources-3:/layout/item_comercio.xml",
         "source": "com.example.manitasgo.app-main-6:/layout/item_comercio.xml"
     },
     {
-        "merged": "com.example.manitasgo.app-mergeDebugResources-3:/layout/item_producto.xml",
-        "source": "com.example.manitasgo.app-main-6:/layout/item_producto.xml"
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-mergeDebugResources-3:\\layout\\activity_auth.xml",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\layout\\activity_auth.xml"
     },
     {
-        "merged": "com.example.manitasgo.app-mergeDebugResources-3:/layout/item_producto_vendedor.xml",
-        "source": "com.example.manitasgo.app-main-6:/layout/item_producto_vendedor.xml"
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-mergeDebugResources-3:\\layout\\item_producto.xml",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\layout\\item_producto.xml"
     },
     {
-        "merged": "com.example.manitasgo.app-mergeDebugResources-3:/layout/activity_auth.xml",
-        "source": "com.example.manitasgo.app-main-6:/layout/activity_auth.xml"
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-mergeDebugResources-3:\\layout\\activity_cliente.xml",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\layout\\activity_cliente.xml"
     },
     {
-        "merged": "com.example.manitasgo.app-mergeDebugResources-3:/layout/activity_editar_producto.xml",
-        "source": "com.example.manitasgo.app-main-6:/layout/activity_editar_producto.xml"
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-mergeDebugResources-3:\\layout\\activity_editar_comercio.xml",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\layout\\activity_editar_comercio.xml"
     },
     {
-        "merged": "com.example.manitasgo.app-mergeDebugResources-3:/layout/activity_detalle_comercio.xml",
-        "source": "com.example.manitasgo.app-main-6:/layout/activity_detalle_comercio.xml"
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-mergeDebugResources-3:\\layout\\dialog_valorar.xml",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\layout\\dialog_valorar.xml"
     },
     {
-        "merged": "com.example.manitasgo.app-mergeDebugResources-3:/layout/item_resenya.xml",
-        "source": "com.example.manitasgo.app-main-6:/layout/item_resenya.xml"
-    },
-    {
-        "merged": "com.example.manitasgo.app-mergeDebugResources-3:/layout/dialog_valorar.xml",
-        "source": "com.example.manitasgo.app-main-6:/layout/dialog_valorar.xml"
-    },
-    {
-        "merged": "com.example.manitasgo.app-mergeDebugResources-3:/layout/activity_editar_comercio.xml",
-        "source": "com.example.manitasgo.app-main-6:/layout/activity_editar_comercio.xml"
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-mergeDebugResources-3:\\layout\\item_resenya.xml",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\layout\\item_resenya.xml"
     }
 ]

@@ -38,7 +38,7 @@ public class ResenyaAdapter extends RecyclerView.Adapter<ResenyaAdapter.ViewHold
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Resenya r = data.get(position);
-        holder.rbResenya.setRating(r.puntuacion);
+        holder.rbResenya.setRating((float) r.puntuacion);
         holder.tvComentario.setText(r.comentario != null ? r.comentario : "Sin comentario");
         holder.tvFecha.setText(r.fecha != null ? r.fecha.substring(0, 10) : "");
     }

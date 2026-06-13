@@ -67,7 +67,7 @@ public class ComercioAdapter extends RecyclerView.Adapter<ComercioAdapter.ViewHo
             tvDireccion  = itemView.findViewById(R.id.tv_item_direccion);
             tvTelefono   = itemView.findViewById(R.id.tv_item_telefono);
             tvValoracion = itemView.findViewById(R.id.tv_item_valoracion);
-            ratingBar    = itemView.findViewById(R.id.rb_item);
+            //ratingBar    = itemView.findViewById(R.id.rb_item);
         }
     }
 }

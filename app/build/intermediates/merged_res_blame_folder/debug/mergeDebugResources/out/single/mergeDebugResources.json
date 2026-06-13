@@ -1,39 +1,19 @@
 [
     {
-        "merged": "com.example.manitasgo.app-debug-4:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.manitasgo.app-main-6:/mipmap-mdpi/ic_launcher_foreground.webp"
-    },
-    {
-        "merged": "com.example.manitasgo.app-debug-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.manitasgo.app-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
         "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "com.example.manitasgo.app-debug-4:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.manitasgo.app-main-6:/mipmap-hdpi/ic_launcher_foreground.webp"
-    },
-    {
-        "merged": "com.example.manitasgo.app-debug-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.manitasgo.app-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\layout_activity_cliente.xml.flat",
         "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\layout\\activity_cliente.xml"
     },
     {
-        "merged": "com.example.manitasgo.app-debug-4:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.manitasgo.app-main-6:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.manitasgo.app-debug-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.manitasgo.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\mipmap-hdpi\\ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -48,14 +28,6 @@
         "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.manitasgo.app-debug-4:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.manitasgo.app-main-6:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
-    },
-    {
-        "merged": "com.example.manitasgo.app-debug-4:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.manitasgo.app-main-6:/mipmap-hdpi/ic_launcher.webp"
-    },
-    {
         "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
@@ -64,64 +36,36 @@
         "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.manitasgo.app-debug-4:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.manitasgo.app-main-6:/mipmap-xhdpi/ic_launcher_foreground.webp"
-    },
-    {
-        "merged": "com.example.manitasgo.app-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.manitasgo.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "com.example.manitasgo.app-debug-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.manitasgo.app-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.manitasgo.app-debug-4:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.manitasgo.app-main-6:/mipmap-xxhdpi/ic_launcher_foreground.webp"
-    },
-    {
         "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\layout_item_resenya.xml.flat",
         "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\layout\\item_resenya.xml"
-    },
-    {
-        "merged": "com.example.manitasgo.app-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.manitasgo.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\menu_menu_vendedor.xml.flat",
         "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\menu\\menu_vendedor.xml"
     },
     {
-        "merged": "com.example.manitasgo.app-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.manitasgo.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\layout_activity_auth.xml.flat",
         "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\layout\\activity_auth.xml"
     },
     {
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
         "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\layout_activity_vendedor.xml.flat",
         "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\layout\\activity_vendedor.xml"
-    },
-    {
-        "merged": "com.example.manitasgo.app-debug-4:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.manitasgo.app-main-6:/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.manitasgo.app-debug-4:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.manitasgo.app-main-6:/mipmap-mdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\menu_menu_cliente.xml.flat",
-        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\menu\\menu_cliente.xml"
     },
     {
         "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\drawable_ic_launcher_background.xml.flat",
@@ -130,6 +74,10 @@
     {
         "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\menu_menu_cliente.xml.flat",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\menu\\menu_cliente.xml"
     },
     {
         "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -152,16 +100,16 @@
         "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.manitasgo.app-debug-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.manitasgo.app-main-6:/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\layout_dialog_valorar.xml.flat",
         "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\layout\\dialog_valorar.xml"
+    },
+    {
+        "merged": "com.example.manitasgo.app-debug-4:/layout_item_comercio.xml.flat",
+        "source": "com.example.manitasgo.app-main-6:/layout/item_comercio.xml"
     },
     {
         "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\layout_item_comercio.xml.flat",
@@ -176,12 +124,16 @@
         "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\layout_activity_detalle_comercio.xml.flat",
-        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\layout\\activity_detalle_comercio.xml"
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\mipmap-mdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.manitasgo.app-debug-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.manitasgo.app-main-6:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\layout_activity_detalle_comercio.xml.flat",
+        "source": "C:\\daemon\\8.13\\com.example.manitasgo.app-main-6:\\layout\\activity_detalle_comercio.xml"
     },
     {
         "merged": "C:\\daemon\\8.13\\com.example.manitasgo.app-debug-4:\\layout_activity_editar_comercio.xml.flat",
